@@ -1,7 +1,7 @@
 name: GiveMapper
 main: dktapps\GiveMapper\Main
 version: 0.0.1
-api: 4.0.0
+api: 3.6.0
 load: POSTWORLD
 author: dktapps
 description: Hacks /give to add a whole bunch of block aliases
