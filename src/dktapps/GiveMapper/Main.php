@@ -33,6 +33,7 @@ class Main extends PluginBase{
 				$this->delegate = $delegate;
 				$this->mappings = $mappings;
 				parent::__construct($delegate->getName(), $delegate->getDescription(), $delegate->getUsage(), $delegate->getAliases());
+				$this->setPermission($delegate->getPermission());
 			}
 
 			public function execute(CommandSender $sender, string $commandLabel, array $args){
